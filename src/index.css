@@ -13,7 +13,7 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    /*background-image: url('imgs/paul-volkmer-qVotvbsuM_c-unsplash.jpg');*/
+    background-image: url('logo.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 250vh 100vh;
