@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Button = ({color, text}) => {
     return (
@@ -6,4 +7,11 @@ const Button = ({color, text}) => {
     )
 }
 
+Button.defaultProps = {
+    color: 'steelBlue'
+}
+Button.prototype = {
+    text: PropTypes.string.isRequired,
+    color: PropTypes.string
+}
 export default Button
